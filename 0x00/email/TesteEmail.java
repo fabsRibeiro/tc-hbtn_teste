@@ -1,5 +1,4 @@
 
-import static email.Pessoa.emailValid;
 
 public class TesteEmail {
     public static boolean testar_email_com_arroba(){
