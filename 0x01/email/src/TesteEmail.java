@@ -1,4 +1,5 @@
 
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -17,6 +18,8 @@ public class TesteEmail {
 
     @Test
     public void testar_email_mais_50_caracteres() {
-        Assertions.assertEquals(Pessoa.emailValid("email_teste_muito_longo_nao_deve_ser_valido@dominio.com.br"));
+        boolean result = Pessoa.emailValid("email_teste_muito_longo_nao_deve_ser_valido@dominio.com.br");
+        int valor = result ? 0 : 1;
+        Assertions.assertEquals(0, valor);
     }
 }
