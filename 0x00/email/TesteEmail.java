@@ -1,4 +1,3 @@
-package email;
 
 import static email.Pessoa.emailValid;
 
