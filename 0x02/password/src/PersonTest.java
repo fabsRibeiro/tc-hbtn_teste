@@ -11,6 +11,7 @@ public class PersonTest {
     @BeforeAll
     public static void setup(){
         new Person();
+
     }
 
     @ParameterizedTest(name = "Validar usuario {0}")
