@@ -1,4 +1,4 @@
-
+package password.src;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
@@ -11,7 +11,6 @@ public class PersonTest {
     @BeforeAll
     public static void setup(){
         new Person();
-
     }
 
     @ParameterizedTest(name = "Validar usuario {0}")
